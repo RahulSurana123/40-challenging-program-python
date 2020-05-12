@@ -1,0 +1,25 @@
+list_num = [44, 15, 76, 114]
+list_float = [4.5, 5.2, 6.8, 4.56]
+list_string = ["44", "15", "76", "114"]
+list_list = [[4, 5], [6, 4]]
+print("The variable list_string is a : " + str(type(list_string)))
+print("It contains the elements : " + str(list_string))
+print("The element " + str(list_string[0]) + " is a : " + str(type(list_string[0])))
+print()
+print("The variable list_num is a : " + str(type(list_num)))
+print("It contains the elements : " + str(list_num))
+print("The element " + str(list_num[0]) + " is a : " + str(type(list_num[0])))
+print()
+print("The variable list_float is a : " + str(type(list_float)))
+print("It contains the elements : " + str(list_float))
+print("The element " + str(list_float[0]) + " is a : " + str(type(list_float[0])))
+print()
+print("The variable list_num is a : " + str(type(list_list)))
+print("It contains the elements : " + str(list_list))
+print("The element " + str(list_list[0]) + " is a : " + str(type(list_list[0])))
+print("\nNow sorting list_num and list_string ...")
+list_num.sort()
+list_string.sort()
+print("Sorted list_num : " + str(list_num))
+print("Sorted list_string : " + str(list_string))
+print("\nstring are sorted alphabetically and int are sorted numerically")
